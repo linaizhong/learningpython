@@ -3,8 +3,10 @@
 # Execute primeiramente pip install mysql-python
 import MySQLdb
 
-# crie primeiramente o example_db
-# Dentro do mysql CREATE DATABASE example_db;
+"""crie primeiramente o example_db
+no mysql faca: CREATE DATABASE example_db;"""
+
+# Cria uma conexao: banco de dados, usuario e senha
 connection = MySQLdb.connect(db='example_db', user='root', passwd='')
 
 # cria um cursor
