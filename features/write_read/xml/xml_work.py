@@ -7,7 +7,7 @@ https://docs.python.org/2/library/xml.html
 
 import xml.etree.ElementTree as ET
 
-
+"""Etree method"""
 def read_data_etree():
 	# Efetua o parsing usando o metodo etree (supondo que arquivo exista)
 	# countries.xml se encontra na documentacao do Python
@@ -25,6 +25,8 @@ def read_data_etree():
 	for neighbor in root.iter('neighbor'):
 		print neighbor.attrib.get('name')
 
+
+"""Etree method"""
 def write_data_etree():
 	root = ET.Element('data')
 	country = ET.SubElement(root, 'country')
