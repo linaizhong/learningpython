@@ -37,8 +37,8 @@ def query(cursor):
 
 
 connection, cursor = connection_sqlite()
-insert_data(('Bruno', 25), cursor, connection)
-insert_data(('Bruno Gabriel dos Santos', 25), cursor, connection)
+insert_data(('A', 25), cursor, connection)
+insert_data(('B', 20), cursor, connection)
 query(cursor)
 
 connection.close()
