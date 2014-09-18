@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import sys
 # volta um diretorio acima
 sys.path.append('..')
