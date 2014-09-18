@@ -13,6 +13,8 @@ def fibonacci_test(number):
 	1
 	>>> fibonacci_test(10) #teste OK
 	55
+	>>> [fibonacci_test(i) for i in range(11)] #teste OK
+	[0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
 	"""
 	return iterative_fibonacci(number)
 

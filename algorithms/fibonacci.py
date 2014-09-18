@@ -7,7 +7,7 @@ def iterative_fibonacci(num):
 	temp, result = 1, 1
 	for i in xrange(3, num+1):
 		temp, result = result, result + temp
-	print result
+	return result
 
 def recursive_fibonacci(num):
 	if num<=0:
