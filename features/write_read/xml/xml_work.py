@@ -10,6 +10,7 @@ import xml.etree.ElementTree as ET
 
 def read_data_etree():
 	# Efetua o parsing usando o metodo etree (supondo que arquivo exista)
+	# countries.xml se encontra na documentacao do Python
 	tree = ET.parse('countries.xml')
 	# busca a raiz (data)
 	root = tree.getroot()
