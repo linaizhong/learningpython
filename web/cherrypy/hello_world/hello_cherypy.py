@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 import cherrypy
 
+# Para instalar pip install cherrypy
+
 class HelloWeb(object):
 	"""
 	O decorador @cherrypy.expose
