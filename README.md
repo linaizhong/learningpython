@@ -2,4 +2,5 @@
 
 Installs:
 - pip install virtualenv
+- pip install mysql-python
 
